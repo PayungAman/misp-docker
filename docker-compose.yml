@@ -90,6 +90,7 @@ services:
       start_interval: 30s
     expose:
       - 80
+      - 443
     volumes:
       - "./configs/:/var/www/MISP/app/Config/:Z"
       - "./logs/:/var/www/MISP/app/tmp/logs/:Z"
